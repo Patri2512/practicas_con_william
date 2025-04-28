@@ -9,7 +9,14 @@ void main(List<String> arguments) {
   String numeroIntroducidoRaw = stdin.readLineSync()!;
   int numeroIntroducido = int.parse(numeroIntroducidoRaw);
 
+  bool esCorrecto = false;
   if (numeroIntroducido == numeroObjetivo) {
+    esCorrecto = true;
+  } else {
+    esCorrecto = false;
+  }
+
+  if (esCorrecto) {
     print("Felicidades!");
   } else {
     print("Sigue intentando.");
