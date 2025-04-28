@@ -16,3 +16,9 @@ void main(List<String> arguments) {
     print("Sigue intentando.");
   }
 }
+
+// 1 hacer modificaciones (guardar archivos)
+// 2 agregar modificaciones a stage
+// 3 hacer commit
+// 3.1 agregar titulo a commit
+// 4 sincronizar cambios
